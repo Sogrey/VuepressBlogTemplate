@@ -2,7 +2,7 @@ module.exports = {
   port: "3000",
   dest: "docs",
   ga: "UA-85414008-1",
-  base: "/",
+  base: "/VuepressBlogEdit2/",
   markdown: {
     externalLinks: {
       target: '_blank',
@@ -28,8 +28,8 @@ module.exports = {
     }]
   ],
   themeConfig: {
-    repo: "baomidou/mybatis-plus",
-    docsRepo: "baomidou/mybatis-plus-doc",
+    repo: "Sogrey/VuepressBlogEdit2",
+    docsRepo: "Sogrey/VuepressBlogEdit2",
     editLinks: true,
     locales: {
       "/": {
@@ -60,14 +60,6 @@ module.exports = {
                 link: "https://github.com/baomidou/dynamic-datasource-spring-boot-starter"
               }
             ]
-          },
-          {
-            text: "更新日志",
-            link: "https://github.com/baomidou/mybatis-plus/blob/3.0/CHANGELOG.md"
-          },
-          {
-            text: "2.0 文档",
-            link: "https://baomidou.gitee.io/mybatis-plus-doc/#/"
           }
         ],
         sidebar: {
@@ -103,12 +95,7 @@ module.exports = {
                 link: "https://github.com/baomidou/dynamic-datasource-spring-boot-starter"
               }
             ]
-          },
-          {
-            text: "Changelog",
-            link: "https://github.com/baomidou/mybatis-plus/blob/3.0/CHANGELOG.md"
           }
-
         ],
         sidebar: {
           "/en/guide/": genGuideSidebar(false),
@@ -123,40 +110,12 @@ function genGuideSidebar(isZh) {
   return [{
       title: isZh ? "快速入门" : "Getting Start",
       collapsable: false,
-      children: ["", "quick-start", "install", "config", "annotation"]
+      children: ["", "quick-start"]
     },
     {
       title: isZh ? "核心功能" : "Core",
       collapsable: false,
-      children: ["generator", "crud-interface", "wrapper", "page", "sequence"]
-    },
-    {
-      title: isZh ? "插件扩展" : "Plugin",
-      collapsable: false,
-      children: [
-        "hot-loading",
-        "logic-delete",
-        "enum",
-        "auto-fill-metainfo",
-        "sql-injector",
-        "block-attack-sql-parser",
-        "performance-analysis-plugin",
-        "p6spy",
-        "optimistic-locker-plugin",
-        "dynamic-datasource",
-        "dts",
-        "tenant",
-        "dynamic-table-name-parser",
-        "mybatisx-idea-plugin"
-      ]
-    },
-    {
-      title: "FAQ",
-      collapsable: false,
-      children: [
-        "faq",
-        "donate"
-      ]
+      children: ["generator"]
     }
   ]
 }
@@ -165,6 +124,6 @@ function genConfigSidebar(isZh) {
   return [{
     title: isZh ? "配置" : "Config",
     collapsable: false,
-    children: ["", "generator-config"]
+    children: [""]
   }]
 }
