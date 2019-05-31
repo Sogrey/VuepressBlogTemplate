@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build",
+    "dev": "vuepress dev source",
+    "build": "vuepress build source",
     "deploy": "npm run build & cd docs/ & git init & git add -A & git commit -m 'deploy' & git push -f https://github.com/Sogrey/VuepressBlogEdit2.git master:gh-pages"
   },
   "repository": {
