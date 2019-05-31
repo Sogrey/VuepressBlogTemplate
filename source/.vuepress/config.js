@@ -2,7 +2,7 @@ module.exports = {
   port: "3000",
   dest: "docs",
   ga: "UA-85414008-1",
-  base: "/VuepressBlogEdit2/",
+  base: "/VuepressBlogTemplate/",
   markdown: {
     externalLinks: {
       target: '_blank',
@@ -28,8 +28,8 @@ module.exports = {
     }]
   ],
   themeConfig: {
-    repo: "Sogrey/VuepressBlogEdit2",
-    docsRepo: "Sogrey/VuepressBlogEdit2",
+    repo: "Sogrey/VuepressBlogTemplate",
+    docsRepo: "Sogrey/VuepressBlogTemplate",
     editLinks: true,
     docsDir: 'source',
     locales: {
@@ -49,16 +49,16 @@ module.exports = {
           {
             text: "生态",
             items: [{
-                text: "Kisso 单点登录",
-                link: "https://gitee.com/baomidou/kisso"
+                text: "百度",
+                link: "https://www.baidu.com"
               },
               {
-                text: "Lock4j 分布式锁",
-                link: "https://gitee.com/baomidou/lock4j-spring-boot-starter"
+                text: "淘宝",
+                link: "http://www.taobao.com"
               },
               {
-                text: "Dynamic Datasource 动态数据源",
-                link: "https://github.com/baomidou/dynamic-datasource-spring-boot-starter"
+                text: "爱奇艺",
+                link: "http://www.iqiyi.com/"
               }
             ]
           }
@@ -84,16 +84,16 @@ module.exports = {
           {
             text: "Ecosystem",
             items: [{
-                text: "Kisso",
-                link: "https://gitee.com/baomidou/kisso"
-              },
-              {
-                text: "Lock4j",
-                link: "https://gitee.com/baomidou/lock4j-spring-boot-starter"
-              },
-              {
-                text: "Dynamic Datasource",
-                link: "https://github.com/baomidou/dynamic-datasource-spring-boot-starter"
+              text: "Baidu",
+              link: "https://www.baidu.com"
+            },
+            {
+              text: "Taobao",
+              link: "http://www.taobao.com"
+            },
+            {
+              text: "Iqiyi",
+              link: "http://www.iqiyi.com/"
               }
             ]
           }

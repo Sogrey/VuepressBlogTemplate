@@ -1,15 +1,15 @@
 {
-  "name": "vuepress_blog_edit2",
+  "name": "vuepress_blog_template",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "vuepress dev source",
-    "build": "vuepress build source",
-    "deploy": "npm run build & cd docs/ & git init & git add -A & git commit -m 'deploy' & git push -f https://github.com/Sogrey/VuepressBlogEdit2.git master:gh-pages"
+    "build": "vuepress build source --dest docs",
+    "deploy": "npm run build & cd docs/ & git init & git add -A & git commit -m 'deploy' & git push -f https://github.com/Sogrey/VuepressBlogTemplate.git master:gh-pages"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sogrey/VuepressBlogEdit2.git"
+    "url": "git+https://github.com/Sogrey/VuepressBlogTemplate.git"
   },
   "author": "Sogrey",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "vuepress": "^0.14.8"
   },
   "bugs": {
-    "url": "https://github.com/Sogrey/VuepressBlogEdit2/issues"
+    "url": "https://github.com/Sogrey/VuepressBlogTemplate/issues"
   },
-  "homepage": "https://github.com/Sogrey/VuepressBlogEdit2#readme"
+  "homepage": "https://github.com/Sogrey/VuepressBlogTemplate#readme"
 }
