@@ -31,6 +31,7 @@ module.exports = {
     repo: "Sogrey/VuepressBlogEdit2",
     docsRepo: "Sogrey/VuepressBlogEdit2",
     editLinks: true,
+    docsDir: 'source',
     locales: {
       "/": {
         label: "简体中文",
