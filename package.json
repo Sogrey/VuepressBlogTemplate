@@ -6,7 +6,8 @@
     "dev": "vuepress dev source",
     "build": "vuepress build source --dest docs",
     "deploy": "npm run build & cd docs/ & git init & git add -A & git commit -m 'deploy' & git push -f https://github.com/Sogrey/VuepressBlogTemplate.git master:gh-pages",
-	"outpdf": "cd vuepress2pdf & python vuepress2pdf.py"
+    "outpdf": "cd vuepress2pdf & python vuepress2pdf.py",
+    "pipInstall": "pip install requests & pip install beautifulsoup4 & pip install pdfkit"
   },
   "repository": {
     "type": "git",

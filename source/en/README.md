@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/logo.png
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /en/guide/
 features:
 - title: Simple
   details: MyBatis-Plus is an powerful enhanced tool for MyBatis. it provides many efficient operations for MyBatis. and you can seamlessly switch to MyBatis-Plus from MyBatis.

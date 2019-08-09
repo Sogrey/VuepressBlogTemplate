@@ -10,7 +10,7 @@ module.exports = {
     }
   },
   locales: {
-    "/": {
+    "/zh/": {
       lang: "zh-CN",
       title: "MyBatis-Plus",
       description: "为简化开发而生"
@@ -33,18 +33,18 @@ module.exports = {
     editLinks: true,
     docsDir: 'source',
     locales: {
-      "/": {
+      "/zh/": {
         label: "简体中文",
         selectText: "选择语言",
         editLinkText: "在 GitHub 上编辑此页",
         lastUpdated: "上次更新",
         nav: [{
             text: "指南",
-            link: "/guide/"
+            link: "/zh/guide/"
           },
           {
             text: "配置",
-            link: "/config/"
+            link: "/zh/config/"
           },
           {
             text: "生态",
@@ -64,8 +64,8 @@ module.exports = {
           }
         ],
         sidebar: {
-          "/guide/": genGuideSidebar(true),
-          "/config/": genConfigSidebar(true)
+          "/zh/guide/": genGuideSidebar(true),
+          "/zh/config/": genConfigSidebar(true)
         }
       },
       "/en/": {
