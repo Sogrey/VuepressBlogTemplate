@@ -14,7 +14,7 @@ git push -f https://github.com/Sogrey/VuepressBlogTemplate.git master
 
 echo -e "\033[32;40m [2] \033[0m Building static files"
 # 生成静态文件
-npm run build
+vuepress build source --dest docs
 
 echo -e "\033[32;40m [3] \033[0m commit 2 gh-pages branch"
 # 进入生成的文件夹
