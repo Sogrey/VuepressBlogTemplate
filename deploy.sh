@@ -3,7 +3,7 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-echo -e "\033[32;40m [1] \033[0m init..."
+echo -e "\033[32;40m [1/5] \033[0m init..."
 
 npm install
 npm install -g vuepress
@@ -12,12 +12,12 @@ pip install requests
 pip install beautifulsoup4 
 pip install pdfkit
 
-echo -e "\033[32;40m [2] \033[0m create pdf..."
+echo -e "\033[32;40m [2/5] \033[0m create pdf..."
 
 cd vuepress2pdf 
 python vuepress2pdf.py
 
-echo -e "\033[32;40m [3] \033[0m commit 2 master branch"
+echo -e "\033[32;40m [3/5] \033[0m commit 2 master branch"
 
 cd .. 
 
@@ -28,11 +28,11 @@ git commit -m 'deploy master'
 # 如果你想要部署到 https://USERNAME.github.io
 git push -f https://github.com/Sogrey/VuepressBlogTemplate.git master
 
-echo -e "\033[32;40m [4] \033[0m Building static files"
+echo -e "\033[32;40m [4/5] \033[0m Building static files"
 # 生成静态文件
 vuepress build source --dest docs
 
-echo -e "\033[32;40m [5] \033[0m commit 2 gh-pages branch"
+echo -e "\033[32;40m [5/5] \033[0m commit 2 gh-pages branch"
 # 进入生成的文件夹
 cd docs/
 # 如果是发布到自定义域名
