@@ -6,15 +6,20 @@ set -e
 echo -e "\033[32;40m [1] \033[0m init..."
 
 npm install
+npm install -g vuepress
+npm audit fix
 pip install requests 
 pip install beautifulsoup4 
 pip install pdfkit
 
 echo -e "\033[32;40m [2] \033[0m create pdf..."
 
-npm run outpdf
+cd vuepress2pdf 
+python vuepress2pdf.py
 
 echo -e "\033[32;40m [3] \033[0m commit 2 master branch"
+
+cd .. 
 
 git init
 git add -A

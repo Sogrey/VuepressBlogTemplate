@@ -16,7 +16,7 @@
   "author": "Sogrey",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^0.14.8"
+    "vuepress": "^0.14.11"
   },
   "devDependencies": {
     "lodash.template": ">=4.5.0",
