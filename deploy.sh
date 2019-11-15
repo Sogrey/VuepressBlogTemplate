@@ -6,8 +6,8 @@ set -e
 echo -e "\033[32;40m [1/4] \033[0m init..."
 
 npm install
-npm install -g vuepress
-npm audit fix
+# npm install -g vuepress
+# npm audit fix
 
 echo -e "\033[32;40m [2/4] \033[0m commit 2 master branch"
 
