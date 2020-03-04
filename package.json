@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev source",
+    "start": "npm run dev",
     "build": "vuepress build source --dest docs",
-    "deploy": "npm run build & cd docs/ & git init & git add -A & git commit -m 'deploy' & git push -f https://github.com/Sogrey/VuepressBlogTemplate.git master:gh-pages",
+    "deploy": "bash deploy.sh",
     "outpdf": "cd vuepress2pdf & python vuepress2pdf.py",
     "pipInstall": "pip install requests & pip install beautifulsoup4 & pip install pdfkit"
   },
@@ -16,7 +17,7 @@
   "author": "Sogrey",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^0.14.11"
+    "vuepress": "^1.1.0"
   },
   "devDependencies": {
     "lodash.template": ">=4.5.0",

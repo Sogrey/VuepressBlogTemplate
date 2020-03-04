@@ -2,6 +2,49 @@
 home: true
 heroImage: /img/logo.png
 actionText: Get Started →
+actionLink: /zh/guide/
+features:
+- title: Features one
+  details: The details of features one。
+- title: Features two
+  details: The details of features two
+- title: Features three
+  details: The details of features three
+---
+
+<p align="center">
+<b>Vuepress template project, convenient and quick to build vuepress project.</b>
+</p>
+
+::: tip Tips
+This project is for learning only, not for commercial use. The data is from the Internet. Please let me know if you have any rights.
+:::
+
+---
+### Friend chain
+
+Add a friend chain here.
+
+---
+<!-- 自定义footer -->
+<p align="center">
+Hosted by <a href="https://pages.github.com" target="_blank" style="font-weight:bold">Github Pages</a> | <a href="https://sogrey.github.io/about/mit.html" target="_blank">MIT License</a> | © 2019 <a href="https://sogrey.github.io" target="_blank">Sogrey</a> | Are there any <a href="https://github.com/Sogrey/VuepressBlogTemplate/issues/new" target="_blank">Issue</a> ?
+</p>
+<br><br>
+
+
+
+
+
+
+
+
+
+
+---
+home: true
+heroImage: /img/logo.png
+actionText: Get Started →
 actionLink: /en/guide/
 features:
 - title: Simple

@@ -12,19 +12,19 @@ module.exports = {
   locales: {
     "/zh/": {
       lang: "zh-CN",
-      title: "MyBatis-Plus",
+      title: "Vuepress 模板",
       description: "为简化开发而生"
     },
     "/en/": {
       lang: "en-US",
-      title: "MyBatis-Plus",
+      title: "Vuepress Blog Template",
       description: "Born To Simplify Development"
     }
   },
   head: [
     ["link", {
       rel: "icon",
-      href: `/favicon.ico`
+      href: "/favicon.ico"
     }]
   ],
   themeConfig: {
@@ -118,7 +118,7 @@ function genGuideSidebar(isZh) {
       collapsable: false,
       children: ["generator"]
     }
-  ]
+  ];
 }
 
 function genConfigSidebar(isZh) {
@@ -126,5 +126,5 @@ function genConfigSidebar(isZh) {
     title: isZh ? "配置" : "Config",
     collapsable: false,
     children: [""]
-  }]
+  }];
 }

@@ -17,7 +17,7 @@ echo -e '\033[32;40m
 
 echo -e "\033[32;40m [1/4] \033[0m init..."
 
-npm install
+# npm install
 # npm install -g vuepress
 # npm audit fix
 
