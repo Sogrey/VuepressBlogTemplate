@@ -9,6 +9,9 @@ module.exports = {
       rel: 'noopener noreferrer'
     }
   },
+  lang: "zh-CN",
+  title: "Vuepress 模板",
+  description: "为简化开发而生",
   locales: {
     "/zh/": {
       lang: "zh-CN",
