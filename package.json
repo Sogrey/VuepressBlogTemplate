@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "lodash.template": ">=4.5.0",
-    "lodash": ">=4.17.13",
+    "lodash": ">=4.17.19",
     "braces": ">=2.3.1",
     "serialize-javascript": ">=2.1.1",
     "minimist": ">=1.2.3",
