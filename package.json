@@ -17,18 +17,18 @@
   "author": "Sogrey",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^1.1.0"
+    "vuepress": "^1.6.0"
   },
   "devDependencies": {
-    "lodash.template": ">=4.5.0",
-    "lodash": ">=4.17.19",
-    "braces": ">=2.3.1",
-    "serialize-javascript": ">=3.1.0",
-    "minimist": ">=1.2.3",
-    "acorn": ">=6.4.1",
+    "acorn": "^8.0.1",
+    "braces": "^3.0.2",
     "kind-of": ">=6.0.3",
-    "yargs-parser": ">=13.1.2",
-    "node-forge": ">=0.10.0"
+    "lodash": "^4.17.20",
+    "lodash.template": ">=4.5.0",
+    "minimist": ">=1.2.3",
+    "node-forge": ">=0.10.0",
+    "serialize-javascript": "^5.0.1",
+    "yargs-parser": ">=13.1.2"
   },
   "bugs": {
     "url": "https://github.com/Sogrey/VuepressBlogTemplate/issues"
