@@ -1,6 +1,4 @@
-# **VuepressBlogTemplate**
-
-多页面管理
+# **VuepressBlogTemplate** 多页面管理
 
 安装依赖
 ``` bash
