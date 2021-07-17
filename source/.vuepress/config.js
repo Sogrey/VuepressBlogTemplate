@@ -33,12 +33,12 @@ module.exports = {
   themeConfig: {
     repo: "Sogrey/VuepressBlogTemplate",
     docsRepo: "Sogrey/VuepressBlogTemplate",
-    editLinks: true,
+    editLinks: true,// 显示编辑连接
     docsDir: 'source',
-    navbar: true,
-    search: true,
-    searchMaxSuggestions: 20,
-    smoothScroll: true,
+    navbar: true,// 开启导航栏
+    search: true,//开启搜索
+    searchMaxSuggestions: 20,// 搜索条目最大数
+    smoothScroll: true,// 顺滑回滚
     // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
     nextLinks: true,
     // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
