@@ -17,7 +17,7 @@
   "author": "Sogrey",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^1.6.0"
+    "vuepress": "^1.8.0"
   },
   "devDependencies": {
     "acorn": "^8.0.1",
