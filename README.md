@@ -21,4 +21,3 @@ bash pdf.sh
 ``` bash
 bash deploy.sh
 ```
-
