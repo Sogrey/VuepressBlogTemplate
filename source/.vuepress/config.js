@@ -35,6 +35,14 @@ module.exports = {
     docsRepo: "Sogrey/VuepressBlogTemplate",
     editLinks: true,
     docsDir: 'source',
+    navbar: true,
+    search: true,
+    searchMaxSuggestions: 20,
+    smoothScroll: true,
+    // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
+    nextLinks: true,
+    // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
+    prevLinks: true,
     locales: {
       "/zh/": {
         label: "简体中文",
